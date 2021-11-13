@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setup is getting ready!]]>
+    </line>
+    <line>
+      <![CDATA[Setup done]]>
+    </line>
+    <line>
+      <![CDATA[Application getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Application up and running]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-11-13T18:18:05Z" name="Suite" finished-at="2021-11-13T18:18:36Z" duration-ms="30976">
+    <groups>
+    </groups>
+    <test started-at="2021-11-13T18:18:05Z" name="Test" finished-at="2021-11-13T18:18:36Z" duration-ms="30976">
+      <class name="com.MyFramework.testcases.LoginTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.MyFramework.testcases.LoginTest@741a8937]" started-at="2021-11-13T23:48:04Z" name="setUpSuite" finished-at="2021-11-13T23:48:05Z" duration-ms="1112" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setup is getting ready!]]>
+            </line>
+            <line>
+              <![CDATA[Setup done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.MyFramework.testcases.LoginTest@741a8937]" started-at="2021-11-13T23:48:05Z" name="setUp" finished-at="2021-11-13T23:48:24Z" duration-ms="18702" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Application up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startWebApplication()[pri:0, instance:com.MyFramework.testcases.LoginTest@741a8937]" started-at="2021-11-13T23:48:24Z" name="startWebApplication" finished-at="2021-11-13T23:48:33Z" duration-ms="9349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebApplication -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.MyFramework.testcases.LoginTest@741a8937]" started-at="2021-11-13T23:48:33Z" name="tearDown" finished-at="2021-11-13T23:48:35Z" duration-ms="2028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startWebApplication status=SUCCESS method=LoginTest.startWebApplication()[pri:0, instance:com.MyFramework.testcases.LoginTest@741a8937] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.MyFramework.testcases.LoginTest@741a8937]" started-at="2021-11-13T23:48:35Z" name="quit" finished-at="2021-11-13T23:48:36Z" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.MyFramework.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

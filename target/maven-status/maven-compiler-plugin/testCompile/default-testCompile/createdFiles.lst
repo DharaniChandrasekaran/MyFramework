@@ -1,0 +1,7 @@
+com\MyFramework\Pages\LoginPage.class
+com\MyFramework\utilities\BrowserFactory.class
+com\MyFramework\testcases\LoginTest.class
+com\MyFramework\utilities\ExcelDataProvider.class
+com\MyFramework\utilities\ConfigDataProvider.class
+com\MyFramework\utilities\BaseClass.class
+com\MyFramework\utilities\Helper.class

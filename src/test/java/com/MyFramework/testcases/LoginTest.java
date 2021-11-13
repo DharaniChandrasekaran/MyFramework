@@ -1,19 +1,21 @@
 package com.MyFramework.testcases;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import com.MyFramework.Pages.LoginPage;
+import com.MyFramework.utilities.BaseClass;
 
-import com.MyFramework.utilities.BrowserFactory;
 
-public class LoginTest {
+public class LoginTest extends BaseClass {
 
-	WebDriver driver;
-    @Test
+	@Test
 	public void startWebApplication() {
-		
-		driver = BrowserFactory.startWebApp(driver, "Chrome", "https://classic.freecrm.com/index.html?e=1");
-	    System.out.println(driver.getTitle());
-	    BrowserFactory.closeBrowser(driver);
-	    
-    }
+		LoginPage login = PageFactory.initElements(driver, LoginPage.class);
+		logger=report.createTest("Login");
+		logger.info("Login process started");
+		login.LaunchWebApplication(excel.getStringData("LoginPage", 0, 0), excel.getStringData("LoginPage", 0, 1));
+		System.out.println("Application logged in ");
+		logger.pass("Successfully logged in!");
+	}
+
 }
